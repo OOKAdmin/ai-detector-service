@@ -1,0 +1,7 @@
+flask
+flask-cors
+nltk
+transformers
+torch
+python-dotenv
+pyjwt
