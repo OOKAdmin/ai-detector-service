@@ -46,7 +46,7 @@ def download_nltk_resources():
 # --------------------------
 # Load RoBERTa AI detection model
 # --------------------------
-MODEL_NAME = "Hello-SimpleAI/chatgpt-detector-roberta"
+MODEL_NAME = "JinalShah2002/distilbert-detector"
 print("Loading AI detection model (this may take a moment on first boot)...")
 try:
     classifier = pipeline("text-classification", model=MODEL_NAME, truncation=True, max_length=512)
